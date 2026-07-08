@@ -29,4 +29,7 @@ public class Skill {
     public String toString() {
         return "Skill [id=" + id + ", name=" + name + "]";
     }
+
+
+
 }
