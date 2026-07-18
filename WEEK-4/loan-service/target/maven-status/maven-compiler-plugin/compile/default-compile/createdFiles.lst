@@ -1,0 +1,3 @@
+com\banking\loanservice\model\Loan.class
+com\banking\loanservice\controller\LoanController.class
+com\banking\loanservice\LoanServiceApplication.class
