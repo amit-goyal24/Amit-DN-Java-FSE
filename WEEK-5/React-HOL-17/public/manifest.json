@@ -1,0 +1,8 @@
+{
+  "short_name": "react-hol-17",
+  "name": "React HOL 17",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#282c34",
+  "background_color": "#ffffff"
+}
