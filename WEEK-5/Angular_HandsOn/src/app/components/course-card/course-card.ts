@@ -1,0 +1,5 @@
+import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from '@angular/core';
+import { NgClass, NgStyle, NgSwitch, NgSwitchCase, NgSwitchDefault, NgIf, UpperCasePipe } from '@angular/common'; import { Course } from '../../models/course.model'; import { CreditLabelPipe } from '../../pipes/credit-label-pipe';
+@Component({selector:'app-course-card',imports:[NgClass,NgStyle,NgSwitch,NgSwitchCase,NgSwitchDefault,NgIf,UpperCasePipe,CreditLabelPipe],templateUrl:'./course-card.html',styleUrl:'./course-card.css'})
+export class CourseCard implements OnChanges { @Input({required:true}) course!:Course; @Input() enrolled=false; @Output() enrollRequested=new EventEmitter<number>(); @Output() selected=new EventEmitter<number>(); isExpanded=false; ngOnChanges(c:SimpleChanges){console.log('Course changed',c['course']);} get cardClasses(){return {'card--enrolled':this.enrolled,'card--full':(this.course?.credits??0)>=4,expanded:this.isExpanded};} get borderColor(){return {passed:'green',failed:'crimson',pending:'grey'}[this.course.gradeStatus];} }
+

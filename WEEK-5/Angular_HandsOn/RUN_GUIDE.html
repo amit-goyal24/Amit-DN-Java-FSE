@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Student Course Portal — Run & Usage Guide</title>
+  <style>
+    :root { color-scheme: light; --navy:#0f2d67; --blue:#2563eb; --bg:#f4f7fb; --ink:#172033; --muted:#5f6b7a; --card:#fff; --warn:#fff7df; --error:#fff0f0; }
+    * { box-sizing:border-box; } body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+    header { background:linear-gradient(120deg,var(--navy),var(--blue)); color:#fff; padding:54px max(24px,calc((100% - 1060px)/2)); }
+    h1 { margin:0 0 10px; font-size:clamp(2rem,5vw,3.2rem); } header p { margin:0; max-width:760px; opacity:.92; }
+    main { max-width:1060px; margin:32px auto 64px; padding:0 24px; } section { background:var(--card); border-radius:14px; padding:26px; margin:18px 0; box-shadow:0 4px 18px #10214b12; }
+    h2 { color:var(--navy); margin-top:0; } h3 { margin:22px 0 7px; } code { background:#e9effb; color:#153d82; padding:2px 6px; border-radius:4px; } pre { background:#10234a; color:#eaf2ff; padding:17px; border-radius:9px; overflow:auto; } .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; } .feature { border-left:4px solid var(--blue); padding:8px 14px; background:#f8fbff; } .note { background:var(--warn); border-left:4px solid #e6a700; padding:14px; border-radius:6px; } table { width:100%; border-collapse:collapse; } th,td { padding:12px; text-align:left; vertical-align:top; border-bottom:1px solid #dce4f1; } th { background:#edf3ff; color:#173a78; } .error { background:var(--error); } footer { text-align:center; color:var(--muted); margin:30px; }
+  </style>
+</head>
+<body>
+  <header><h1>Student Course Portal</h1><p>How to run, use, test, and troubleshoot the Angular Hands-On project.</p></header>
+  <main>
+    <section>
+      <h2>What this portal does</h2>
+      <div class="grid">
+        <div class="feature"><strong>Home dashboard</strong><br />Shows portal statistics, a live search field, and an enrollment action.</div>
+        <div class="feature"><strong>Courses board</strong><br />Loads courses, displays cards, course status, credits, hover highlight, and detail navigation.</div>
+        <div class="feature"><strong>Enrollment</strong><br />Provides both template-driven and reactive forms with validation.</div>
+        <div class="feature"><strong>State and API</strong><br />Uses HttpClient, RxJS, interceptors, and NgRx state for courses and enrollment IDs.</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>How to run it</h2>
+      <p>Open PowerShell in the project directory and install packages once:</p>
+      <pre>cd C:\Users\Lenovo\Harsh-DN-JavaFSE\Angular_HandsOn
+npm install</pre>
+      <p>Start the Angular application:</p>
+      <pre>npm start</pre>
+      <p>Open <code>http://localhost:4200</code> in your browser.</p>
+      <div class="note"><strong>Important:</strong> Keep this terminal running while using the website. Stop it with <code>Ctrl + C</code>.</div>
+    </section>
+
+    <section>
+      <h2>Start the mock API (recommended)</h2>
+      <p>Open a <strong>second</strong> PowerShell window. JSON Server reads <code>db.json</code> and provides the course API at port 3000.</p>
+      <pre>cd C:\Users\Lenovo\Harsh-DN-JavaFSE\Angular_HandsOn
+npx json-server --watch db.json --port 3000</pre>
+      <p>Then visit <code>http://localhost:3000/courses</code> to see the raw API data. If JSON Server is not running, the app uses its sample-course fallback data.</p>
+    </section>
+
+    <section>
+      <h2>What to do in the portal</h2>
+      <ol>
+        <li><strong>Home:</strong> type into the search box and click <em>Enroll Now</em> to see binding and event handling.</li>
+        <li><strong>Courses:</strong> wait for data, hover over cards, expand details, enroll/unenroll, and click a card to open its detail page.</li>
+        <li><strong>Enroll:</strong> fill all fields correctly; the submit button stays disabled until valid.</li>
+        <li><strong>Enroll Reactive:</strong> try leaving the page after changing a value; the unsaved-changes confirmation should appear.</li>
+        <li><strong>Profile:</strong> this route is protected by the mock auth guard. The current demo login value is <code>true</code>.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>How errors are handled and defined</h2>
+      <p>An error means the application cannot compile, cannot contact its API, or receives invalid data. Read the first red error line; it normally contains the file and line number.</p>
+      <table>
+        <thead><tr><th>Error / symptom</th><th>Meaning</th><th>Fix</th></tr></thead>
+        <tbody>
+          <tr class="error"><td><code>NG2008: Could not find template file</code></td><td>The component's <code>templateUrl</code> points to a missing/renamed HTML file.</td><td>Ensure the named file exists beside the component, then stop and restart <code>npm start</code>.</td></tr>
+          <tr class="error"><td><code>Failed to load courses</code> or network error</td><td>JSON Server is off, API port is wrong, or request failed.</td><td>Run the JSON Server command above and confirm <code>http://localhost:3000/courses</code> opens.</td></tr>
+          <tr class="error"><td><code>Cannot find module</code></td><td>Required npm packages are absent.</td><td>Run <code>npm install</code>, then restart Angular.</td></tr>
+          <tr class="error"><td>Browser shows an old error after a code fix</td><td>The Angular dev server has stale compilation state.</td><td>Press <code>Ctrl + C</code>, run <code>npm start</code> again, and hard refresh with <code>Ctrl + Shift + R</code>.</td></tr>
+          <tr class="error"><td><code>Port 4200 is already in use</code></td><td>Another Angular server is already running.</td><td>Use the existing tab/server, stop the old process, or accept the alternate port Angular offers.</td></tr>
+          <tr class="error"><td>Form does not submit</td><td>One or more validation rules are not satisfied.</td><td>Read the field message, fill every required field, use a valid email, and tick the terms checkbox.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Verification commands</h2>
+      <pre># Production build
+npm run build
+
+# Unit tests in Chrome Headless
+npx ng test --watch=false --browsers=ChromeHeadless</pre>
+      <p>A successful build produces the deployable application inside <code>dist/Angular_HandsOn</code>.</p>
+    </section>
+  </main>
+  <footer>Student Course Portal • Angular Hands-On Guide</footer>
+</body>
+</html>

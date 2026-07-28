@@ -1,0 +1,8 @@
+angular.json — CLI workspace, build and serve configuration; production budgets warn/error when bundle size crosses thresholds.
+tsconfig.json — shared TypeScript compiler settings for the workspace.
+tsconfig.app.json — TypeScript settings and files for the browser application.
+package.json — project scripts and npm dependency manifest.
+src/main.ts — browser entry point that bootstraps the standalone app.
+src/app/app.config.ts — application-wide providers such as router and HttpClient.
+src/app/app.ts — root component which hosts header and router outlet.
+src/index.html — HTML document shell into which Angular renders the application.

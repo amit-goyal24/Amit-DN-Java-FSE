@@ -1,0 +1,1 @@
+<section class="page page-course-detail"><a routerLink="/courses">← Courses</a><div *ngIf="course; else missing"><h2>{{ course.name }}</h2><p>Code: {{ course.code }}</p><p>Credits: {{ course.credits }}</p><p>Status: {{ course.gradeStatus }}</p></div><ng-template #missing><p>Course was not found.</p></ng-template></section>
