@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38998245-bb33-45b8-a351-ab067e02ef3d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../employee-jdbc/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-jdbc/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-jdbc/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-jdbc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-jdbc/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-jdbc/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-jdbc/src/main/java/com/employee/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-jdbc/src/main/java/com/employee/dao/EmployeeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-jdbc/src/main/java/com/employee/dao/EmployeeDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-jdbc/src/main/java/com/employee/dbUtil/DBConection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-jdbc/src/main/java/com/employee/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-jdbc/src/test/java/com/employee/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gla/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gla/entity/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gla/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEEK-3/Spring-rest-json-HandsOn/spring-learn/src/main/java/com/cognizant/springlearn/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEEK-3/Spring-rest-json-HandsOn/spring-learn/src/main/java/com/cognizant/springlearn/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEEK-3/Spring-rest-json-HandsOn/spring-learn/src/main/java/com/cognizant/springlearn/SpringLearnApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEEK-3/Spring-rest-json-HandsOn/spring-learn/src/main/java/com/cognizant/springlearn/SpringLearnApplication.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GDKG3J2qmbkjMP7ZULuACCZ9ou" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;practice&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38998245-bb33-45b8-a351-ab067e02ef3d" name="Changes" comment="" />
+      <created>1783500601109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783500601109</updated>
+    </task>
+    <servers />
+  </component>
+</project>
