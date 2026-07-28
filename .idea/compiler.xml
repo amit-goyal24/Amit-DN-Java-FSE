@@ -10,8 +10,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="account-service" target="17" />
+      <module name="api-gateway" target="17" />
+      <module name="eureka-server" target="17" />
+      <module name="greet-service" target="17" />
       <module name="LibraryManagement" target="1.8" />
       <module name="LibraryManagementBoot" target="17" />
+      <module name="loan-service" target="17" />
       <module name="orm-learn" target="1.8" />
     </bytecodeTargetLevel>
   </component>
