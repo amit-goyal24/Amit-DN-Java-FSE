@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="899c7340-79f6-44ac-83fc-a18f713848f6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/DN-JavaFSE-Solutions" value="practice" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.5468247360203158" />
+      <entry key="MS500" value="3.198142724056438" />
+      <entry key="S2" value="7.062653385567215" />
+      <entry key="S5" value="10.05579714701568" />
+      <entry key="S10" value="13.540893074288292" />
+      <entry key="S30" value="20.04570223082654" />
+      <entry key="S60" value="23.243880029286572" />
+      <entry key="M2" value="26.617656110147944" />
+      <entry key="M5" value="35.39097345328129" />
+      <entry key="M10" value="56.40127172499872" />
+      <entry key="M15" value="77.13368782442247" />
+      <entry key="M30" value="117.68645934087016" />
+      <entry key="H1" value="151.48165842891825" />
+      <entry key="H2" value="173.53104182086153" />
+      <entry key="H4" value="186.15842647307923" />
+      <entry key="D1" value="197.60365360369647" />
+      <entry key="W1" value="199.65540513997777" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.406232061500713E-197" />
+      <entry key="S5" value="1.8164472826088396E-79" />
+      <entry key="S10" value="4.261979918576775E-40" />
+      <entry key="S30" value="7.527898506729892E-14" />
+      <entry key="S60" value="2.8225804098457333E-7" />
+      <entry key="M2" value="6.94696214476112E-4" />
+      <entry key="M5" value="0.13294117012890916" />
+      <entry key="M10" value="0.9555216983331188" />
+      <entry key="M15" value="1.905820069478119" />
+      <entry key="M30" value="3.8692702817503717" />
+      <entry key="H1" value="5.550875864057785" />
+      <entry key="H2" value="6.660020385428284" />
+      <entry key="H4" value="7.298274024766933" />
+      <entry key="D1" value="7.8783689920132165" />
+      <entry key="W1" value="7.982505927720939" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.5008528200061635" />
+      <entry key="MS500" value="3.1772686289943466" />
+      <entry key="S2" value="7.050282847530451" />
+      <entry key="S5" value="10.048052773802652" />
+      <entry key="S10" value="13.534685151538417" />
+      <entry key="S30" value="20.04182664380007" />
+      <entry key="S60" value="23.241394973519775" />
+      <entry key="M2" value="26.616630166370577" />
+      <entry key="M5" value="35.522053371386875" />
+      <entry key="M10" value="57.3534263309822" />
+      <entry key="M15" value="79.03546402832714" />
+      <entry key="M30" value="121.55186466902916" />
+      <entry key="H1" value="157.02981370600244" />
+      <entry key="H2" value="180.18944186883215" />
+      <entry key="H4" value="193.45581546809768" />
+      <entry key="D1" value="205.4818637460704" />
+      <entry key="W1" value="207.63788808388472" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FXscHovdL8WeW8jOyUZrao7FP7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountServiceApplication.executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.LibraryManagementApplication.executor": "Run",
+    "Application.LibraryManagementBootApplication.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.OrmLearnApplication.executor": "Run",
+    "JUnit.SpringLearnApplicationTests.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.AccountServiceApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Amit Goyal/Amit-DN-Java-FSE",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "run.configurations.included.in.services": "true",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Amit Goyal\Amit-DN-Java-FSE" />
+      <recent name="C:\Users\Amit Goyal\Amit-DN-Java-FSE\WEEK - 2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Amit Goyal\Amit-DN-Java-FSE" />
+      <recent name="C:\Users\Amit Goyal\Amit-DN-Java-FSE\DN-JavaFSE-Solutions\WEEK_2\LibraryManagement\src\main\java\com\library" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="AccountServiceApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AccountServiceApplication">
+    <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="account-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.banking.accountservice.AccountServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.banking.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.banking.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreetServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="greet-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.banking.greetservice.GreetServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="loan-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.banking.loanservice.LoanServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringLearnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-learn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cognizant.springlearn.SpringLearnApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="899c7340-79f6-44ac-83fc-a18f713848f6" name="Changes" comment="" />
+      <created>1782232826131</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782232826131</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
